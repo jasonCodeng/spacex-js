@@ -4,7 +4,7 @@
   "description": "SpaceX-API Javascript API Wrapper",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "standard"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,9 @@
     "url": "https://github.com/jasonCodeng/spacex-js/issues"
   },
   "homepage": "https://github.com/jasonCodeng/spacex-js#readme",
-  "dependencies": {
-    "request": "^2.83.0"
+  "dependencies": {},
+  "devDependencies": {
+    "node-fetch": "^1.7.3",
+    "standard": "^10.0.3"
   }
 }
