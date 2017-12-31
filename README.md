@@ -17,7 +17,7 @@ spacex-js
 Install
 -------
 
-    npm install --save spacex-js
+npm install --save spacex-js
 
 
 Usage
